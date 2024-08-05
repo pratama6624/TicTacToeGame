@@ -19,6 +19,7 @@
 		41F9BF1D2C61147300D8ED47 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		41F9BF1F2C61147500D8ED47 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		41F9BF222C61147500D8ED47 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		41F9BF292C61183900D8ED47 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +36,7 @@
 		41F9BF0F2C61147300D8ED47 = {
 			isa = PBXGroup;
 			children = (
+				41F9BF292C61183900D8ED47 /* README.md */,
 				41F9BF1A2C61147300D8ED47 /* TicTacToeGame */,
 				41F9BF192C61147300D8ED47 /* Products */,
 			);
