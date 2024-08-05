@@ -7,15 +7,25 @@
 
 import SwiftUI
 
+let columns: [GridItem] = [
+    GridItem(.flexible()),
+    GridItem(.flexible()),
+    GridItem(.flexible()),
+]
+
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
-        }
-        .padding()
+        LazyVGrid(columns: columns, content: {
+            Text("Placeholder")
+            Text("Placeholder")
+            Text("Placeholder")
+            Text("Placeholder")
+            Text("Placeholder")
+            Text("Placeholder")
+            Text("Placeholder")
+            Text("Placeholder")
+            Text("Placeholder")
+        })
     }
 }
 
