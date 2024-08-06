@@ -16,7 +16,6 @@ struct ContentView: View {
     ]
     
     @State private var moves: [Move?] = Array(repeating: nil, count: 9)
-    @State private var isHumanMove = true
     
     var body: some View {
         GeometryReader { geometry in
@@ -38,8 +37,14 @@ struct ContentView: View {
                         }
                         .onTapGesture {
                             if isSquareOccupied(in: moves, forIndex: i) { return }
-                            moves[i] = Move(player: isHumanMove ? .human : .computer, boardIndex: i)
-                            isHumanMove.toggle()
+                            moves[i] = Move(player: .human, boardIndex: i)
+                            
+                            // Check for win or draw
+                            
+                            DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) {
+                                let computerPosition = determinanComputerMovePosition(in: moves)
+                                moves[computerPosition] = Move(player: .computer, boardIndex: computerPosition)
+                            }
                         }
                     }
                 }
@@ -58,7 +63,7 @@ struct ContentView: View {
         var movePosition = Int.random(in: 0..<9)
         
         while isSquareOccupied(in: moves, forIndex: movePosition) {
-            var movePosition = Int.random(in: 0..<9)
+            movePosition = Int.random(in: 0..<9)
         }
         
         return movePosition
