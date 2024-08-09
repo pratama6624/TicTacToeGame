@@ -42,5 +42,6 @@ Tic Tac Toe is a classic game played on a 3x3 board. In this implementation, we 
    - Repeat steps 1 to 4 continuously until the entire board is filled.
 
 
-![Simulator Screenshot - iPhone 15 Pro - 2024-08-09 at 07 34 16](https://github.com/user-attachments/assets/01c0e9b5-8c13-4586-8413-a3f3fda21e00)
-![Simulator Screenshot - iPhone 15 Pro - 2024-08-09 at 07 35 21](https://github.com/user-attachments/assets/011fa04d-c50c-4246-bbbb-19de96077710)
+<img src="https://github.com/user-attachments/assets/01c0e9b5-8c13-4586-8413-a3f3fda21e00" alt="Simulator Screenshot 1" width="300"/>
+<img src="https://github.com/user-attachments/assets/011fa04d-c50c-4246-bbbb-19de96077710" alt="Simulator Screenshot 2" width="300"/>
+
