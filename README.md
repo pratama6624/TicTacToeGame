@@ -40,8 +40,19 @@ Tic Tac Toe is a classic game played on a 3x3 board. In this implementation, we 
 
 5. **Repeat:**
    - Repeat steps 1 to 4 continuously until the entire board is filled.
+   
+## To make AI smarter
+
+### Make the AI ​​smarter but that doesn't mean it can't be beaten
+
+- If AI has a chance of winning, then win
+- If the AI ​​has no chance of winning, then block the enemy
+- If AI can't block, then take the middle box
+- If Ai can't take the middle box, then take a random box
 
 
-<img src="https://github.com/user-attachments/assets/01c0e9b5-8c13-4586-8413-a3f3fda21e00" alt="Simulator Screenshot 1" width="300"/>
-<img src="https://github.com/user-attachments/assets/011fa04d-c50c-4246-bbbb-19de96077710" alt="Simulator Screenshot 2" width="300"/>
+<img src="https://github.com/user-attachments/assets/01c0e9b5-8c13-4586-8413-a3f3fda21e00" alt="Simulator Screenshot 1" width="200"/>
+<img src="https://github.com/user-attachments/assets/011fa04d-c50c-4246-bbbb-19de96077710" alt="Simulator Screenshot 2" width="200"/>
+<img src="https://github.com/user-attachments/assets/2c067007-e255-49cd-a2b3-95abc01f6184" alt="Simulator Screenshot - iPhone 15 Pro - 2024-08-10 at 10 03 45" width="200"/>
+
 
